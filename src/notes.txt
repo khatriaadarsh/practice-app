@@ -1,0 +1,11 @@
+   //Types of Application
+   1. Round trip Application;
+     - App's that are totally dependent on server for any event and action.
+     - Refreshing Dom again and again.
+     - Uses server-side navigation with full page reload.
+
+   2. Single Page Application(SPA);
+     - In SPA without Refreshing the whole page of Application jump from page to another page. 
+     - Render only this part of Application which we need.
+     - This use virtual Dom to make Application more faster then other.
+     - SPA's use cilent-side routing to navigation within the Application. 
