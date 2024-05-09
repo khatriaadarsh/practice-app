@@ -1,11 +1,17 @@
-import React from 'react'
+// import React, { useState } from 'react'
 // import { Link } from 'react-router-dom';
-import Card from './Components/Card'
+import Card from './Components/Cards'
 const App = () => {
+  // const[count, useCount] = useState(0);
+  const myObj = {
+    userName : 'Aadarsh Kumar',
+    email : 'aadarshKumar@gmail.com',
+    Age : 20
+  }
   return (
     <>
     <div>
-      <Card />
+      <Card userName='Code with Aadarsh' someObj = {myObj}/>
     </div>
 
     </>
