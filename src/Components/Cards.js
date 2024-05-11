@@ -24,12 +24,12 @@ const Card = ({userName}) => {
       </div>
        <div className=' text-center text-xl pb-4 font-serif'>
         Thank you so much <br /> 
-        all for your wishes <br />
-        {userName}
+        all for your's wishes <br />
+        {/* {userName} */}
        </div>
     </div>
    </div>
-   </div>
+  </div>
    </>
   )
 }
